@@ -1,0 +1,83 @@
+body {
+  margin-left: 40px;
+  font-family: system-ui;
+}
+
+.container {
+  width: 60%;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: lightcyan;
+}
+
+.container .profilePic {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  margin-right: 10px;
+}
+
+.container .name {
+  font-weight: bold;
+}
+
+.container .addBtn {
+  background-color: #1DA1F2;
+  color: white;
+  margin-right: 10px;
+}
+
+.container .msnBtn {
+  background-color: rgb(175, 172, 172);
+}
+
+.container
+.addBtn,
+.msnBtn {
+  border: none;
+  font-weight: bold;
+  padding: 9px;
+  border-radius: 5px;
+}
+
+.buttons {
+  position: relative;
+  left: 370px;
+}
+
+.containerPic .profilePic {
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  padding: 5px;
+ }
+
+.containerPic {
+  background-color: rgb(37, 30, 30);
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 10px;
+}
+
+.containerInfo {
+  background-color: grey;
+  width: 16.7%;
+  height: 240px;
+  padding: 10px;
+  color: white;
+  position:relative;
+  left: 100px;
+  bottom: 260px;
+}
+
+.containerInfo .plusSign {
+  position: absolute;
+  top: -9px;
+  left: 190px;
+  font-size: 25px;
+}
