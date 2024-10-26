@@ -1,0 +1,118 @@
+body {
+  margin-left: 40px;
+}
+
+.inputOne {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.inputTwo {
+  display: block;
+  margin-top: 10px;
+}
+
+.thanksMsg {
+  width: 30%;
+  text-align: justify;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+.yesBtn, .noBtn {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.containerOne {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+  width: 40%;
+  height: 100px;
+}
+
+.googleImg {
+  width: 30%;
+}
+
+.googleInput {
+  width: 65%;
+  height: 25px;
+  padding: 3px 10px;
+  border-radius: 30px;
+  border: 1px solid lightgrey;
+}
+
+.inputName,
+.inputSurname,
+.inputEmail {
+  height: 25px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  margin-bottom: 15px;
+}
+
+.inputName,
+.inputSurname {
+  display: inline-block;
+}
+
+.inputEmail {
+  display: block;
+  width: 37%;
+}
+
+.signupBtn {
+  display: block;
+  width: 38.5%;
+  height: 35px;
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.containerTwo {
+  width: 30%;
+  border: 1px solid lightgray;
+}
+
+.inputLocation,
+.inputDestination {
+  display: block;
+  height: 30px;
+  width: 90%;
+  margin-bottom: 10px;
+  margin-left: 11px;
+  background-color: lightgray;
+  border: none;
+}
+
+.nowBtn,
+.laterBtn {
+  height: 30px;
+  width: 45%;
+  margin-bottom: 15px;
+}
+
+.nowBtn {
+  margin-left: 11px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.laterBtn {
+  background-color: lightgray;
+  border: none;
+}
+
