@@ -1,0 +1,91 @@
+body {
+  margin-left: 40px;
+  font-family: Arial;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+.blackBtn {
+  background-color: black;
+  color: white;
+}
+
+.yellowBtn {
+  background-color: rgb(255, 216, 20);
+  border-radius: 30px;
+  padding: 10px 50px!important;
+  }
+
+.greenBtn {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border-radius: 5px;
+}
+
+.purpleBtn {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border-radius: 3px;
+}
+
+.greyBtn {
+  background-color: rgb(225, 230, 235);
+  color: rgb(108, 117, 125);
+  border: 1px solid rgb(108, 117, 125);
+  border-radius: 3px;
+}
+
+.blueBtn {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border-radius: 30px;
+  padding: 10px 30px!important;
+}
+
+.whiteBtn {
+  color: rgb(10, 102, 194);
+  border: 1px solid rgb(10, 102, 194);
+  border-radius: 30px;
+}
+
+.simpleCard {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 20%;
+  height: auto;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  font-family: Arial;
+  background-color: lightcyan;
+}
+
+.simpleCard .titleLine {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.simpleCard .priceLine {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+
+.simpleCard button {
+  border-radius: 30px;
+}
+
+.simpleCard .yellowBtn {
+  background-color: rgb(255, 216, 20);
+  padding: 10px 20px!important;
+}
+
+.simpleCard .orangeBtn {
+  background-color: rgb(255, 164, 28);
+  padding: 10px 20px;
+}
+
