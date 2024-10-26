@@ -1,0 +1,170 @@
+body {
+  margin-left: 40px;
+  font-family: system-ui;
+}
+
+.containerParent {
+  border: 1px solid lightgray;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+}
+
+.containerParent .item1 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.containerParent .item2 {
+  background-color: lightpink;
+  width: 75px;
+}
+
+.containerTwo {
+  border: 1px solid lightgray;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+}
+
+.containerTwo .item1 {
+  background-color: lightblue;
+  width: 50px;
+}
+
+.containerTwo .item2 {
+  background-color: lightpink;
+}
+
+.containerTwo .item3 {
+  background-color: lightgreen;
+  width: 75px;
+}
+
+.containerThree {
+  border: 1px solid lightgray;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.containerThree .item {
+  background-color: lightpink;
+  padding: 3px 7px;
+}
+
+.containerFour {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding: 5px 10px;
+}
+
+.containerFour .item {
+  font-weight: bold;
+}
+
+.containerFour .numBtn {
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 3px 10px;
+}
+
+.containerFive {
+  border: 1px solid lightgray;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.containerSix {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.containerSix .description 
+.name,
+.occupation,
+.popular {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.containerSix .description .name {
+  font-weight: bold;
+}
+
+.containerSix .description 
+.occupation,
+.popular {
+  color: grey;
+}
+
+.containerSix .profilePic {
+width: 50px;
+height: 50px;
+border-radius: 25px;
+}
+
+.containerSix .followBtn {
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.containerSeven {
+  border: 1px solid lightgray;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.containerEight {
+  border: 1px solid lightgray;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+  background-color: #563d7c;
+}
+
+.containerEight
+.searchInput,
+.downloadBtn {
+  height: 25px;
+}
+
+.containerEight .searchInput {
+  width: 60%;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 10px;
+}
+
+.containerEight .containerHome {
+  color: white;
+}
+
+.containerEight .downloadBtn {
+  background-color: #563d7c;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+
