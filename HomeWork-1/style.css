@@ -1,0 +1,27 @@
+body {
+  margin-left: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.simpleCard {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 16%;
+  height: auto;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  font-family: Arial;
+  background-color: lightcyan;
+}
+
+.simpleCard button {
+  padding: 8px;
+  font-weight: bold;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+}
