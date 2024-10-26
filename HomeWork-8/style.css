@@ -1,0 +1,164 @@
+body {
+  margin-left: 40px;
+}
+
+.containerRed {
+  background-color: red;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+.containerGreen {
+  background-color: green;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.containerWhite {
+  border: 1px solid lightgrey;
+  width: 22%;
+  text-align: center;
+  }
+
+  .containerWhite p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .containerWhite button {
+    display: inline;
+    margin-bottom: 10px;
+  }
+
+  .containerBlack {
+    width: 22%;
+    text-align: center;
+    border: 1px solid white;
+    background-color: black;
+    font-family: Arial;
+    padding: 10px;
+  }
+
+  .containerBlack .titlePar {
+    color: white;
+    font-weight: bold;
+  }
+
+  .containerBlack .descriptionPar {
+    color: lightgray;
+    font-size: 11px;
+  }
+
+  .containerTweet {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 2px 2px lightgray;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+  }
+  .containerTweet .profilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+.containerTweet .statusInput {
+  height: 50px;
+  width: 230px;
+  border: none;
+}
+
+.containerTweet .tweetBtn {
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+.addFriend {
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px lightgrey;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial;
+}
+
+.addFriend .profilePic2 {
+  width: 100%;
+  height: 200px;
+}
+
+.addFriend .name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.addFriend .mutualFriends {
+  color: grey;
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.addFriend .newFriend {
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.allFriends {
+ width: 90%;
+  display: flex;
+  justify-content:space-around;
+  border: 1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.containerGoogle {
+  border: 1px solid lightgray;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerGoogle .logoGoogle {
+  width: 25%;
+}
+
+.containerGoogle .inputGoogle {
+  width: 80%;
+  height: 32px;
+  border-radius: 30px;
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px grey;
+  margin-bottom: 10px;
+}
+
+.containerBtn
+.googleBtn,
+.luckyBtn {
+  padding: 10px 15px;
+  background-color: lightgrey;
+  border: none;
+  display: inline;
+  margin-bottom: 15px;
+}
