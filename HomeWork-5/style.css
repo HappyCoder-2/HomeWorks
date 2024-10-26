@@ -1,0 +1,190 @@
+body {
+  margin-left: 40px;
+}
+
+.firstParagraph,
+.secondParagraph {
+  width: 15%;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.firstParagraph {
+  font-family: Tahoma;
+}
+
+.secondParagraph {
+  font-family: Arial;
+}
+
+.secondParagraph .childSpan {
+  font-size: 14px;
+  color: red;
+  font-style: italic;
+}
+
+.containerOne {
+  width: 20%;
+  border: 1px solid black;
+  text-align: center;
+  font-family: Verdana;
+  border-radius: 5px;
+  background-color: lightcyan;
+}
+
+.containerOne h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.containerOne span {
+  color: grey;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.containerOne p {
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.containerOne button {
+  margin-bottom: 10px;
+  padding: 9px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.containerTwo {
+  width: 20%;
+  border: 1px solid black;
+  text-align: center;
+  font-family: Arial;
+  border-radius: 5px;
+  background-color: lightcyan;
+  padding-bottom: 10px;
+}
+
+.containerTwo p {
+  font-size: 15px;
+}
+
+.containerTwo a {
+  text-decoration: none;
+}
+
+.containerThree {
+  width: 25%;
+  border: 1px solid black;
+  text-align: center;
+  font-family: Arial;
+  border-radius: 5px;
+  background-color: lightcyan;
+  padding-bottom: 10px;
+}
+
+.containerThree .intro {
+font-size: 14px;
+color: red;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.containerThree .name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+ }
+
+.containerThree h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.containerThree .price {
+  color: grey;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.containerThree button {
+  background-color: rgb(29, 161, 242);
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.containerFour {
+  width: 25%;
+  border: 1px solid black;
+  text-align: center;
+  font-family: Arial;
+  border-radius: 5px;
+  background-color: lightcyan;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.containerFour .price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.containerFour .currency {
+  color: grey;
+  font-weight: bold;
+}
+
+.containerFour p {
+  color: green;
+  font-weight: bold;
+}
+
+.containerFour .hours {
+  color: grey;
+  font-weight: bold;
+}
+
+.containerFour .percent {
+  color: red;
+  font-weight: bold;
+}
+
+.containerFive {
+  width: 40%;
+  border: 1px solid black;
+  text-align: center;
+  font-family: Arial;
+  border-radius: 5px;
+  background-color: lightcyan;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.containerFive .title {
+  font-weight: bold;
+}
+
+.containerFive .address {
+  color: grey;
+  font-weight: bold;
+}
+
+.containerFive p {
+  font-weight: bold;
+}
+
+.containerFive p span {
+  color: grey;
+}
