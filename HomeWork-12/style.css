@@ -1,0 +1,121 @@
+body {
+  margin-left: 40px;
+  height: 3000px;
+}
+
+.fixedElm1 {
+  width: 50%;
+  border: 1px solid blue;
+  height: 200px;
+  background-color: lightgreen;
+}
+
+.fixedElm1 .movingElm1 {
+  background-color: lightyellow;
+  border: 1px solid darkorange;
+  width: 30%;
+  position: static;
+  top: 50px;
+  right: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+.fixedElm2 {
+  width: 40%;
+  border: 1px solid blue;
+  height: 200px;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.fixedElm2 .movingElm2 {
+  background-color: lightyellow;
+  border: 1px solid darkorange;
+  width: 30%;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+.fixedElm3 {
+  width: 40%;
+  border: 1px solid blue;
+  height: 200px;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.fixedElm3 .movingElm3 {
+  background-color: lightyellow;
+  border: 1px solid darkorange;
+  width: 30%;
+  position: absolute;
+  top: 850px;
+  left: 145px;
+  padding: 10px;
+  text-align: center;
+}
+
+.fixedElm4 {
+  width: 40%;
+  border: 1px solid blue;
+  height: 200px;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.fixedElm4 .movingElm4 {
+  background-color: lightyellow;
+  border: 1px solid darkorange;
+  width: 30%;
+  position: fixed;
+  top: 10px;
+  left: 145px;
+  padding: 10px;
+  text-align: center;
+}
+
+.fixedElm5 {
+  width: 40%;
+  border: 1px solid blue;
+  height: 200px;
+  background-color: lightgreen;
+  padding: 10px;
+  position: fixed;
+  top: 200px;
+}
+
+.fixedElm5 .movingElm5 {
+  background-color: lightyellow;
+  border: 1px solid darkorange;
+  width: 30%;
+  position: absolute;
+  top: 10px;
+  left: 530px;
+  padding: 10px;
+  text-align: center;
+}
+
+.fixedElm6 {
+  width: 40%;
+  border: 1px solid blue;
+  height: 200px;
+  background-color: lightgreen;
+  padding: 10px;
+  position: relative;
+  top: 200px;
+}
+
+.fixedElm6 .movingElm6 {
+  background-color: lightyellow;
+  border: 1px solid darkorange;
+  width: 30%;
+  position: absolute;
+  top: 10px;
+  left: 530px;
+  padding: 10px;
+  text-align: center;
+}
