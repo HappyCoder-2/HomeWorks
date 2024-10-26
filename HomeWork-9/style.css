@@ -1,0 +1,97 @@
+body {
+  margin-left: 40px;
+  font-family: system-ui;
+}
+
+.containerOne {
+  border: 1px solid black;
+  width: 30%;
+  display: grid;
+  grid-template-columns: 200px 75px;
+  padding: 5px;
+}
+
+.containerOne .item1 {
+  background-color: lightblue;
+}
+
+.containerOne .item2 {
+  background-color: lightpink;
+}
+
+.containerTwo {
+  border: 1px solid black;
+  width: 30%;
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  padding: 5px;
+}
+
+.containerTwo .item1 {
+  background-color: lightblue;
+}
+
+.containerTwo .item2 {
+  background-color: lightpink;
+}
+
+.containerTwo .item3 {
+  background-color: lightgreen;
+}
+
+.containerThree {
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid black;
+  width: 40%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 5px;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.containerThree .item {
+  background-color: lightblue;
+}
+
+.containerFriend {
+  border: 1px solid lightgray;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0.5px 1px grey;
+  border-radius: 5px;
+}
+
+.containerFriend .profilePic {
+  width: 100%;
+  height: 180px;
+}
+
+.containerFriend .name {
+  font-weight: bold;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.containerFriend .mutualFriends {
+  color: grey;
+  margin-top: 0;
+}
+
+.containerFriend .addBtn {
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+}
+
+.containerGrid {
+  border: 1px solid lightgray;
+  width: 57%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+}
