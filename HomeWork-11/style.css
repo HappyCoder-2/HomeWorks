@@ -1,0 +1,167 @@
+body {
+  margin-left: 40px;
+  font-family: system-ui;
+}
+
+.parentOne {
+  border: 1px solid lightgrey;
+  width: 30%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.parentOne .child1 {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.parentOne .child2 {
+  background-color: lightblue;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parentTwo {
+  border: 1px solid lightgray;
+  width: 30%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.parentTwo .child1 {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.parentTwo .child1 .grandchild1 {
+  background-color: lightsalmon;
+  margin-bottom: 5px;
+}
+
+.parentTwo .child1 .grandchild2 {
+  background-color: lightgreen;
+  margin-top: 5px;
+}
+
+.parentTwo .child2 {
+  background-color: lightblue;
+  width: 200px;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inboxOne {
+  border: 1px solid lightgrey;
+  width: 30%;
+  padding: 0 10px;
+}
+
+.inboxOne p {
+  color: grey;
+  font-weight: bold;
+}
+
+.profileAndContent {
+  display: flex;
+  align-items: center;
+}
+
+.profilePic {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+
+.subjectTime {
+  margin-left: 10px; /* Adjust spacing between image and text */
+}
+
+.subjectTime,
+.titleDescription {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleDescription {
+  margin-top: 10px; /* Add margin between subject/time and title/description */
+}
+
+.titleDescription .titleMsg {
+  font-weight: bold;
+}
+
+.titleDescription .description {
+  color: grey;
+}
+
+.container {
+  width: 40%;
+  height: 200px;
+  border: 1px solid lightgray;
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+
+.nameWeb {
+  margin: 10px 5px;
+  flex-grow: 2;
+}
+
+.nameWeb .name {
+  font-weight: bold;
+}
+
+.nameWeb .web {
+  color: grey;
+  font-weight: bold;
+}
+
+.nameWeb .description {
+  margin-top: 3px;
+}
+
+.youtube {
+  margin-top: 0;
+  display: flex;
+  margin-left: 72px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  padding: 5px;
+}
+.youtube .videoPreview {
+  width: 130px;
+  height: 100px;
+  background-color: lightgray;
+}
+
+.video {
+  margin-left: 15px;
+}
+
+.video .name1 {
+  margin-top: 5px;
+  color: grey;
+  font-weight: bold;
+}
+
+.video .description {
+  margin-top: 5px;
+}
+
