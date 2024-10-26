@@ -1,0 +1,156 @@
+body {
+  margin-left: 40px;
+  font-family: Arial;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 10px;
+  border: none;
+  font-weight: bold;
+}
+
+.blackBtn {
+  background-color: black;
+  color: white;
+  opacity: 1;
+  transition-property: opacity 0.3s;
+}
+
+.blackBtn:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.yellowBtn {
+  background-color: rgb(255, 216, 20);
+  border-radius: 30px;
+  padding: 10px 50px!important;
+  }
+
+  .yellowBtn:hover {
+    cursor: pointer;
+    background-color: orange;
+  }
+
+.greenBtn {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border-radius: 5px;
+}
+
+.greenBtn:hover {
+  cursor: pointer;
+  box-shadow: 5px 10px lightgreen;
+}
+
+.purpleBtn {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border-radius: 3px;
+}
+
+.purpleBtn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(121, 82, 179);
+  border: 1px solid rgb(121, 82, 179);
+}
+
+.greyBtn {
+  background-color: rgb(225, 230, 235);
+  color: rgb(108, 117, 125);
+  border: 1px solid rgb(108, 117, 125);
+  border-radius: 3px;
+}
+
+.greyBtn:hover {
+  cursor: pointer;
+  background-color: rgb(108, 117, 125);
+  color: rgb(225, 230, 235);
+  border: 1px solid rgb(225, 230, 235);
+}
+
+.blueBtn {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border-radius: 30px;
+  padding: 10px 30px!important;
+}
+
+.blueBtn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border: 3px solid rgb(10, 102, 194);
+}
+
+.whiteBtn {
+  color: rgb(10, 102, 194);
+  border: 1px solid rgb(10, 102, 194);
+  border-radius: 30px;
+}
+
+.whiteBtn:hover {
+  cursor: pointer;
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: 3px solid white;
+}
+
+.simpleCard {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 20%;
+  height: auto;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  font-family: Arial;
+  background-color: lightcyan;
+}
+
+.simpleCard .simpleTitle a:hover {
+  cursor: pointer;
+  color: darkorange;
+  font-weight: bold;
+}
+
+.simpleCard .titleLine {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.simpleCard .priceLine {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+
+.simpleCard button {
+  border-radius: 30px;
+}
+
+.simpleCard .yellowBtn {
+  background-color: rgb(255, 216, 20);
+  padding: 10px 20px!important;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.simpleCard .yellowBtn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.simpleCard .orangeBtn {
+  background-color: rgb(255, 164, 28);
+  padding: 10px 20px;
+  opacity: 1;
+  transition: opacity 0.3;
+}
+
+.simpleCard .orangeBtn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
